@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class PropertyAdditionalFeatures : AuditableBaseEntity
+    public class PropertyFeatures : AuditableBaseEntity
     {
         public required int PropertyId { get; set; }
         public required bool HasGarden { get; set; }

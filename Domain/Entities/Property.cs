@@ -16,7 +16,7 @@ namespace Domain.Entities
         public required int PropertyId { get; set; }
         public PropertyType? Type { get; set; } // House, apartment, land, etc.
         public PropertyPhotos? Photos { get; set; }
-        public PropertyAdditionalFeatures? AdditionalFeatures { get; set; }
+        public PropertyFeatures? Features { get; set; }
         
     }
 }
