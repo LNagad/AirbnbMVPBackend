@@ -11,5 +11,7 @@ namespace Domain.Entities
         public required bool HasAirConditioning { get; set; }
         public required bool HasBarbecueGrill { get; set; }
         public required bool HasBalcony { get; set; }
+
+        public Property? Property { get; set; }
     }
 }
